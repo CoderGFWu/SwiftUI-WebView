@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.3'
   s.ios.deployment_target = '16.0'
-  s.frameworks = 'Foundation', 'UIKit'
+  s.frameworks = 'Foundation', 'UIKit', 'SwiftUI'
   
   s.source_files = 'Sources/**/*'
   
